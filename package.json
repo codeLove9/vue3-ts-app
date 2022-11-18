@@ -1,0 +1,33 @@
+{
+  "name": "vue3-typescript-management",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.1.3",
+    "echarts": "^5.4.0",
+    "element-plus": "^2.2.20",
+    "js-cookie": "^3.0.1",
+    "less": "^4.1.3",
+    "qs": "^6.11.0",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.2",
+    "@types/node": "^18.11.9",
+    "@types/qs": "^6.9.7",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "typescript": "^4.6.4",
+    "unplugin-auto-import": "^0.11.4",
+    "unplugin-vue-components": "^0.22.9",
+    "vite": "^3.2.0",
+    "vue-tsc": "^1.0.9"
+  }
+}
